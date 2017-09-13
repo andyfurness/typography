@@ -1,0 +1,86 @@
+/* Embedded Fonts */
+@font-face {
+	font-family: cloudbold;
+	src: url(../fonts/CloudBold.otf);
+}
+
+@font-face {
+	font-family: cloudlight;
+	src: url(../fonts/CloudLight.otf);
+}
+
+
+
+
+/* Container Items */
+
+html,body {
+	height:100%;
+	width:100%;
+
+}
+
+#cover {
+width: 100%;
+height: 100%;
+background: url("../images/cover.jpg") no-repeat center fixed;
+-webkit-background-size: cover;
+}
+
+#container {
+ width: 66.6%;
+}
+
+#pic {
+	background: url("../images/portrait.jpg") no-repeat;
+	width:500px;
+	height:600px;
+	position: relative;
+	left:80%;
+	top:-600px;
+	z-index:-1;
+}
+
+/* Paragraph Styles */
+
+.title {
+	font-family: 'Press Start 2P', sans-serif;
+	width: 95%;
+	font-size: 6em;
+	margin-left: 50px;
+	position: relative;
+	bottom: -700px;
+	line-height: 1.2;
+	color: black;
+}
+
+.author {
+
+}
+
+
+.text {
+	margin: 100px;
+	font-family: 'cloudlight', sans-serif;
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+.label {
+	font-family: 'cloudlight';
+	color: black;
+	font-size:1.5em;
+	position:relative;
+	left:10px;
+	top:570px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.dropcap {
+	font-size:5em;
+	font-family:'cloudbold', sans-serif;
+	line-height: 0.5;
+}
